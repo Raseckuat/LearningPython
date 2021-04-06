@@ -32,8 +32,8 @@ else:
         minor = third
 
 
-#print(f"El rango de los numero es: [{minor},{mayor}], de los numeros ingresados: {first},{second},{third}")
-print(f"Esto esta raro {minor}")
+print(f"El rango de los numero es: [{minor},{mayor}], de los numeros ingresados: {first},{second},{third}")
+
 
 
 
