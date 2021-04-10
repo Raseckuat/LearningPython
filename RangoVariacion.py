@@ -2,9 +2,9 @@ print("Escribir un programa en el cual: dada una lista de tres valores numericos
 print("***********************************************************************************************************************")
 print("***********************************************************************************************************************")
 print("***********************************************************************************************************************")
-first= input("Ingresa el primer valor")
-second= input("Ingresa el segundo valor")
-third= input("Ingresa el tercer valor")
+first= int(input("Ingresa el primer valor:"))
+second= int(input("Ingresa el segundo valor:"))
+third= int(input("Ingresa el tercer valor:"))
 
 
 if first > second:
@@ -32,8 +32,8 @@ else:
         minor = third
 
 
-#print(f"El rango de los numero es: [{minor},{mayor}], de los numeros ingresados: {first},{second},{third}")
-print(f"Esto esta raro {minor}")
+print(f"El rango de los numero es: [{minor},{mayor}], de los numeros ingresados: {first},{second},{third}")
+
 
 
 
